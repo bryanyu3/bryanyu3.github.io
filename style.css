@@ -32,6 +32,7 @@ nav ul li a:hover {
 header {
   height: 100vh;
   display: flex;
+  align-items: flex-start;
   align-items: center;
   justify-content: center;
   padding-left: 5rem;
@@ -64,4 +65,11 @@ header {
   max-width: 350px;
   border-radius: 50%;
   border: 5px solid black;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #1e3c72, #2a5298, #00c6ff); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
