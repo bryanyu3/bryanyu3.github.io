@@ -73,7 +73,7 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  animation: gradientShift 6s ease-in-out infinite;
+  animation: gradientShift 13s ease-in-out infinite;
 }
 
 @keyframes gradientShift {
