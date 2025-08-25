@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background-color: white;
+  background-color: #1e3c72;
   padding: 1rem;
 }
 
@@ -21,7 +21,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -69,11 +69,11 @@ header {
 
 .gradient-text {
   background: linear-gradient(90deg, #1e3c72, #2a5298, #00c6ff, #2a5298, #1e3c72);
-  background-size: 600% 600%;
+  background-size: 450% 450%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  animation: gradientShift 3s ease-in-out infinite;
+  animation: gradientShift 6s ease-in-out infinite;
 }
 
 @keyframes gradientShift {
