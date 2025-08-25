@@ -69,7 +69,7 @@ header {
 
 .gradient-text {
   background: linear-gradient(90deg, #1e3c72, #2a5298, #00c6ff, #2a5298, #1e3c72);
-  background-size: 300% 300%;
+  background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
