@@ -68,8 +68,16 @@ header {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #1e3c72, #2a5298, #00c6ff); 
+  background: linear-gradient(90deg, #1e3c72, #2a5298, #00c6ff, #2a5298, #1e3c72);
+  background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
+  animation: gradientShift 15s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
