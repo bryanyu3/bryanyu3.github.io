@@ -8,7 +8,6 @@ body {
 nav {
   background-color: white;
   padding: 1rem;
-  text-align: center;
 }
 
 nav ul {
@@ -16,7 +15,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 2rem; 
 }
 
@@ -27,15 +26,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #333;
+  color: #0077cc;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
 .header-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .intro-text h1 {
