@@ -88,11 +88,11 @@ header {
 /* --------- Experience Section --------- */
 .experience-card {
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
   background: white;
   border-radius: 10px;
   padding: 2rem;
-  margin-bbottom: 2rem;
+  margin-bottom: 2rem;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   gap: 2rem;
   transition: transform 0.3s ease, box-shadow .3s ease;
@@ -107,7 +107,7 @@ header {
   object-fit: contain;
 }
 .experience-details {
-  flex: 1
+  flex: 1;
 }
 
 .role {
@@ -119,7 +119,7 @@ header {
 .company {
   font-size: 1.2rem;
   margin: 0.2rem 0 1rem 0;
-  color; #555;
+  color: #555;
 }
 .responsibilities {
   padding-left: 1.2rem;
