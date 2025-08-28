@@ -1,3 +1,4 @@
+/* --------- Body and Fonts --------- */
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
@@ -5,6 +6,7 @@ body {
   color: black;
 }
 
+/* --------- Navigation Bar --------- */
 nav {
   background-color: white;
   padding: 1rem 2rem;
@@ -29,6 +31,7 @@ nav ul li a:hover {
   color: #0077cc;
 }
 
+/* Front Page */
 header {
   height: 100vh;
   display: flex;
@@ -81,3 +84,49 @@ header {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
+/* --------- Experience Section --------- */
+.experience-card {
+  display: flex;
+  align-items: flex-start
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bbottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  gap: 2rem;
+  transition: transform 0.3s ease, box-shadow .3s ease;
+}
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.experience-details {
+  flex: 1
+}
+
+.role {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #222;
+}
+
+.company {
+  font-size: 1.2rem;
+  margin: 0.2rem 0 1rem 0;
+  color; #555;
+}
+.responsibilities {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.responsibilities li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
