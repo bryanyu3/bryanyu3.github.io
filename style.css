@@ -1,3 +1,8 @@
+/* --------- Smooth Scroll --------- */ 
+html { 
+  scroll-behavior: smooth; 
+}
+
 /* --------- Body and Fonts --------- */
 body {
   margin: 0;
@@ -110,8 +115,8 @@ header {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 .logo img {
-  width: 135px;
-  height: 135px;
+  width: 1350px;
+  height: 150px;
   object-fit: contain;
 }
 .experience-details {
@@ -137,5 +142,6 @@ header {
 .responsibilities li {
   margin-bottom: 0.5rem;
   line-height: 1.4;
+  font-size: 0.7rem;
 }
 
