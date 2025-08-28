@@ -110,31 +110,32 @@ header {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 .logo img {
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 135px;
   object-fit: contain;
 }
 .experience-details {
   flex: 1;
+  font-size: 0.9rem;
 }
 
 .role {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0;
   color: #222;
 }
 
 .company {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.2rem 0 1rem 0;
   color: #555;
 }
 .responsibilities {
-  padding-left: 1.2rem;
+  padding-left: 1rem;
   margin: 0;
 }
 .responsibilities li {
   margin-bottom: 0.5rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
