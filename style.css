@@ -52,6 +52,7 @@ header {
   justify-content: flex-start;
   gap: 6rem; 
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 .intro-text h1 {
@@ -70,7 +71,7 @@ header {
 }
 
 .profile-photo img {
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 50%;
   border: 5px solid black;
 }
